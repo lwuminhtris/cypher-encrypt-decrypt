@@ -54,9 +54,6 @@ class Exec:
 
         return "".join(plainMsg)
 
-
-
-
     def jointEncode(text: str, cKey: int, rKey: int):
         return Exec.railfenceEncode(Exec.caesarEncode(text, cKey), rKey)
 

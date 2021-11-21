@@ -1,5 +1,5 @@
 # Luu Minh Tri, 20/11/2021
-# UTILS.PY - helper file for EXEC.PY
+# UTILS.PY -- helper file for EXEC.PY
 
 from math import pow
 from string import ascii_lowercase
@@ -48,7 +48,6 @@ def index(type: str, letter: str) -> int:
         return lowercase.index(letter)
     else:
         return 'undetected type'
-
 
 def isEven(number: int) -> bool:
     if number % 2 == 0:
