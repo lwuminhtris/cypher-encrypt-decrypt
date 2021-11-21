@@ -1,3 +1,6 @@
+# Luu Minh Tri, 20/11/2021
+# MAIN.PY -- run file for application
+
 import gui
 import os
 
