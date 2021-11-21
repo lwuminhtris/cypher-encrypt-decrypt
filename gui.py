@@ -11,7 +11,6 @@ from exec import Exec
 
 import time
 from threading import Thread
-import queue
 
 APP_TITLE = 'Bài tập lớn MM&ANM đề tài 1 (20/11/2021)'
 APP_SIZE = '900x520'
